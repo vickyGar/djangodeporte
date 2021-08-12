@@ -1,1 +1,1 @@
-web: gunicorn devfood.wsgi --log-file -
+web: gunicorn DevDeporte.wsgi --log-file -
