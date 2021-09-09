@@ -10,7 +10,7 @@ class resourceGarment (resources.ModelResource):
 
 class adminGarment(ImportExportModelAdmin, admin.ModelAdmin):
     search_fields = ['mark']
-    list_display = ['size','client','price','discount']
+    list_display = ['client','price','discount']
     resource_class = resourceGarment
 
 admin.site.register(garment, adminGarment)

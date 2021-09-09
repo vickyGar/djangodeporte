@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'DevDeporte.wsgi.application'
 DATABASES = {
     'default': {
       'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'DBdeportivo',
+        'NAME': 'DBdeporte',
         'USER': 'Vicky',
         'PASSWORD': '12345',
         'HOST': '127.0.0.1',
